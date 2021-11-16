@@ -1,2 +1,56 @@
-# irapablo.github.io
-This is a sample project.
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Sections</title>
+		<style type="text/css">
+			.group {
+				border:  3px solid black;
+				color:  white;
+				padding: 10px;
+				margin: 5px 10px;
+				font-size: 30px;
+			}
+
+			#top {
+				background-color: blue;
+				width:  100%;
+			}
+
+			#left {
+				background-color: red;
+				float: left;
+				width: 30%;
+				height:  500px;
+			}
+
+			#middle {
+				background-color: violet;
+				float: left;
+				width: 30%;
+				height: 500px;
+			}
+
+			#right {
+				background-color: green;
+				float: left;
+				width:  30%;
+				height:  500px;
+			}
+
+			#bottom {
+				background-color: yellow;
+				float:  left;
+				width:  100%;
+			}
+
+		</style>
+	</head>
+		<body>
+			<div class="group" id="top"> Top Div</div>
+			<div class="group" id="left"> Left Div</div>
+			<div class="group" id="middle"> Middle Div</div>
+			<div class="group" id="right"> Right Div</div>
+			<div class="group" id="bottom"> Bottom Div</div>
+		</body>
+</html>
